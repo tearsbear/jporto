@@ -1,6 +1,7 @@
 ---
 import Navbar from "../Navigation/Navbar.astro";
 import Home from "../HomeScreen/Index.astro";
+import Overview from "../Overview/Index.astro";
 ---
 
 <center>
@@ -14,7 +15,11 @@ import Home from "../HomeScreen/Index.astro";
               <Home />
             </div>
           </div>
-          <div id="tab-2" class="page-content tab">2</div>
+          <div id="tab-2" class="page-content tab">
+            <div style="padding:30px 56px;">
+              <Overview />
+            </div>
+          </div>
           <div id="tab-3" class="page-content tab">3</div>
           <div id="tab-4" class="page-content tab">4</div>
           <div id="tab-5" class="page-content tab">5</div>

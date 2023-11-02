@@ -46,3 +46,7 @@
 .bg-shadow {
   box-shadow: var(--shadow) !important;
 }
+
+.color-text-p {
+  color: rgba(255, 255, 255, 0.6);
+}
