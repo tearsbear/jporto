@@ -20,11 +20,11 @@ $(document).ready(function () {
     }
 
     $(".avame").addClass("fadeInLeft");
-    $(".avame").attr("src", `../assets/image/avatar/${bgName}.svg`);
+    $(".avame").attr("src", `../assets/image/avatar/${bgName}.webp`);
 
     $(".lockscreen-bg").css(
       "background-image",
-      `url('../assets/image/background/${bgName}.svg`
+      `url('../assets/image/background/${bgName}.webp`
     );
 
     setTimeout(() => {
@@ -551,31 +551,31 @@ $(document).ready(function () {
                   <h2 class="font-inter-medium text-color-white">Photography & Design</h2>
                   <div class="row">
                   <div class="col-50">
-                    <img style="width: 100%; border-radius: 15px" src="../assets/image/gallery/1pt.jpeg" alt="" />
+                    <img style="width: 100%; border-radius: 15px" src="../assets/image/gallery/1pt.webp" alt="" />
                   </div>
                   <div class="col-50">
-                    <img style="width: 100%; border-radius: 15px" src="../assets/image/gallery/2pt.jpeg" alt="" />
+                    <img style="width: 100%; border-radius: 15px" src="../assets/image/gallery/2pt.webp" alt="" />
                   </div>
                   <div class="col-50">
-                    <img style="margin-top: 20px; width: 100%; border-radius: 15px" src="../assets/image/gallery/3pt.jpeg" alt="" />
+                    <img style="margin-top: 20px; width: 100%; border-radius: 15px" src="../assets/image/gallery/3pt.webp" alt="" />
                   </div>
                   <div class="col-50">
-                    <img style="margin-top: 20px; width: 100%; border-radius: 15px" src="../assets/image/gallery/1d.png" alt="" />
+                    <img style="margin-top: 20px; width: 100%; border-radius: 15px" src="../assets/image/gallery/1d.webp" alt="" />
                   </div>
                   <div class="col-50">
-                    <img style="margin-top: 20px; width: 100%; border-radius: 15px" src="../assets/image/gallery/2d.png" alt="" />
+                    <img style="margin-top: 20px; width: 100%; border-radius: 15px" src="../assets/image/gallery/2d.webp" alt="" />
                   </div>
                   <div class="col-50">
-                    <img style="margin-top: -215px; width: 100%; border-radius: 15px" src="../assets/image/gallery/3d.png" alt="" />
+                    <img style="margin-top: -215px; width: 100%; border-radius: 15px" src="../assets/image/gallery/3d.webp" alt="" />
                   </div>
                   <div class="col-50">
-                    <img style="margin-top: 20px; width: 100%; border-radius: 15px" src="../assets/image/gallery/4d.png" alt="" />
+                    <img style="margin-top: 20px; width: 100%; border-radius: 15px" src="../assets/image/gallery/4d.webp" alt="" />
                   </div>
                   <div class="col-50">
-                    <img style="margin-top: -189px; width: 100%; border-radius: 15px" src="../assets/image/gallery/5d.png" alt="" />
+                    <img style="margin-top: -189px; width: 100%; border-radius: 15px" src="../assets/image/gallery/5d.webp" alt="" />
                   </div>
                   <div class="col-50">
-                    <img style="margin-top: 20px; width: 100%; border-radius: 15px" src="../assets/image/gallery/6d.png" alt="" />
+                    <img style="margin-top: 20px; width: 100%; border-radius: 15px" src="../assets/image/gallery/6d.webp" alt="" />
                   </div>
                   <div class="col-50">
                     <img style="margin-top: -110px; width: 100%; border-radius: 15px" src="../assets/image/gallery/7d.png" alt="" />
