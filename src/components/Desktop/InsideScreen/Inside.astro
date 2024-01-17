@@ -1,7 +1,10 @@
 ---
 import Navbar from "../Navigation/Navbar.astro";
-import Home from "../HomeScreen/Index.astro";
-import Overview from "../Overview/Index.astro";
+import Home from "../HomeContent/Index.astro";
+import Overview from "../OverviewContent/Index.astro";
+import ProjectContent from "../ProjectContent/Index.astro";
+import ExperienceContent from "../ExperienceContent/Index.astro";
+import ContactContent from "../ContactContent/Index.astro";
 ---
 
 <center>
@@ -20,9 +23,17 @@ import Overview from "../Overview/Index.astro";
               <Overview />
             </div>
           </div>
-          <div id="tab-3" class="page-content tab">3</div>
-          <div id="tab-4" class="page-content tab">4</div>
-          <div id="tab-5" class="page-content tab">5</div>
+          <div id="tab-3" class="page-content tab">
+            <ProjectContent />
+          </div>
+          <div id="tab-4" class="page-content tab">
+            <div style="padding:30px 56px;">
+              <ExperienceContent />
+            </div>
+          </div>
+          <div id="tab-5" class="page-content tab">
+            <ContactContent />
+          </div>
         </div>
       </div>
     </div>
@@ -31,18 +42,19 @@ import Overview from "../Overview/Index.astro";
       <div style="padding: 23px 30px;">
         <div class="row" style="text-align: left;">
           <div class="col">
-            <a href="#">
+            <a href="#" class="btn-lock">
               <img src="assets/image/icons/home/dots.svg" alt="" />
             </a>
           </div>
           <div class="col">
-            <a href="#">
+            <a href="#" class="open-music">
               <img src="assets/image/icons/home/music.svg" alt="" />
             </a>
           </div>
           <div class="col">
             <a
               href="#"
+              class="open-gallery"
               style="margin-top: -6px; margin-left: -3px; display: block;"
             >
               <img src="assets/image/icons/home/pict.svg" alt="" />
